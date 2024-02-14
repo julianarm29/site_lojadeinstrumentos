@@ -1,0 +1,70 @@
+body {
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(241, 127, 86);
+    color: black;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(241, 127, 86);
+}
+
+.section-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#sobre1, #sobre2, #fale, #nossos,#cursosnome{
+    color: rgb(201, 60, 8);
+}
+
+#sobre-a-loja, #produtos {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: black;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: black;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner img, .carousel {
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+}
+
